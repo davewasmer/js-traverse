@@ -2,6 +2,8 @@
 
 Traverse and transform objects by visiting every node on a recursive walk.
 
+**Note:** this is a fork of [substack's original repo](http://github.com/substack/js-traverse). The only changes are the addition of a UMD wrapper and publishing on bower.
+
 [![browser support](http://ci.testling.com/substack/js-traverse.png)](http://ci.testling.com/substack/js-traverse)
 
 [![build status](https://secure.travis-ci.org/substack/js-traverse.png)](http://travis-ci.org/substack/js-traverse)
