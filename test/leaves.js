@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 
 test('leaves test', function (t) {
     var acc = [];

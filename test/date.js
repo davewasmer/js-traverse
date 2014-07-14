@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 
 test('dateEach', function (t) {
     var obj = { x : new Date, y : 10, z : 5 };

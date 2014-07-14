@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 
 test('traverse an object with nested functions', function (t) {
     t.plan(1);

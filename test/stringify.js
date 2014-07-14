@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 
 test('stringify', function (t) {
     var obj = [ 5, 6, -3, [ 7, 8, -2, 1 ], { f : 10, g : -13 } ];

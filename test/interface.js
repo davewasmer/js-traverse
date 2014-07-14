@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 
 test('interface map', function (t) {
     var obj = { a : [ 5,6,7 ], b : { c : [8] } };

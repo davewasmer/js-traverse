@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 var EventEmitter = require('events').EventEmitter;
 
 test('check instanceof on node elems', function (t) {

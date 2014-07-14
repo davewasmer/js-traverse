@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 var deepEqual = require('./lib/deep_equal');
 
 test('mutate', function (t) {

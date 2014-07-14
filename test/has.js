@@ -1,5 +1,5 @@
 var test = require('tape');
-var traverse = require('../');
+var traverse = require('../traverse');
 
 test('has', function (t) {
     var obj = { a : 2, b : [ 4, 5, { c : 6 } ] };

@@ -1,4 +1,4 @@
-var traverse = require('../');
+var traverse = require('../traverse');
 var test = require('tape');
 
 test('subexpr', function (t) {
